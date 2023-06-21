@@ -1,0 +1,120 @@
+@font-face {
+   font-family: 'Montserrat', sans-serif;
+   src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+   font-family: 'Montserrat', sans-serif;
+   src: url("../fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+   font-family: 'Montserrat', sans-serif;
+   src: url("../fonts/Montserrat-ExtraLight.ttf");
+}
+
+@font-face {
+   font-family: 'Montserrat', sans-serif;
+   src: url("../fonts/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+   font-family: 'Montserrat', sans-serif;
+   src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+   font-family: 'Montserrat', sans-serif;
+   src: url("../fonts/Montserrat-Black.ttf");
+}
+:root{
+   --primary-color: #FFA62B;
+   --secondary-color: #00A0C1;
+   --display: flex;
+   --position-absolute: absolute;
+}
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   scroll-behavior: smooth;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+   margin: 0 auto;
+   padding-right: 20px;
+   padding-left: 20px;
+   max-width: 1008px;
+}
+#home,
+#about,
+#advice,
+#service,
+#contact,
+#footer {
+   padding-top: 100px;
+}
+
+#backtop {
+   position: fixed;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 50%;
+   bottom: -100px;
+   right: 50px;
+   width: 50px;
+   height: 50px;
+   z-index: -1;
+   background-color: #FFA63A;
+   animation: bgcolor infinite 1.2s;
+   transition: 0.5s;
+}
+@keyframes bgcolor{
+   0%
+   {
+      background: #e74c3c;
+   }
+   20%
+   {
+      background: #2980b9;
+   }
+   40%
+   {
+      background: #f1c40f;
+   }
+   60%
+   {
+      background: #8e44ad;
+   }
+   80%
+   {
+      background: #34495e;
+   }
+   100%
+   {
+      background: #e74c3c;
+   }
+}
+
+#backtop.backtop-show {
+   bottom: 50px;
+   z-index: 10;
+}
+
+#preloader {
+   background: #000 url(../assets/images/loader.gif) no-repeat center center;
+   background-size: 20%;
+   height: 100vh;
+   width: 100%;
+   position: fixed;
+   z-index: 10;
+}
+
+iframe {
+   display: none;
+}

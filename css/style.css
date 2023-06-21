@@ -1,0 +1,22 @@
+/* development */
+
+/* @import "common.css";
+@import "navbar.css";
+@import "home.css";
+@import "about.css";
+@import "advise.css";
+@import "services.css";
+@import "contact.css";
+@import "footer.css";
+@import "responsive.css"; */
+
+/* production */
+@import "common.min.css";
+@import "navbar.min.css";
+@import "home.min.css";
+@import "about.min.css";
+@import "advise.min.css";
+@import "services.min.css";
+@import "contact.min.css";
+@import "footer.min.css";
+@import "responsive.min.css";

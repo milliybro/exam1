@@ -1,0 +1,134 @@
+@media only screen and (max-width: 450px){
+   .home-btn{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+   }
+}
+@media only screen and (max-width: 550px){
+   .res-form{
+      display: inline-block;
+   }
+   .contact-form input,
+   .contact-form textarea,
+   .contact-form select {
+      display: none;
+   }
+   .navbar-item{
+      display: none;
+   }
+   .hamburger {
+      display: inline-block;
+      padding-right: 20px;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+   }
+   .subs-right input{
+      min-width: 300px;
+   }
+}
+@media only screen and (max-width: 600px) {
+   .made {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 40px;
+   }
+}
+
+@media only screen and (max-width: 700px) {
+   .subscribe {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+   }
+   .partners{
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+      align-items: center;
+   }
+}
+
+@media only screen and (max-width: 850px) {
+   .service-left video {
+      max-width: 90%;
+      height: auto;
+   }
+   .service-right{
+      max-width: 90%;
+   }
+
+   .pro-item {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      text-align: center;
+      gap: 40px;
+   }
+
+   .address ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}
+
+@media only screen and (max-width: 950px) {
+   .about-item {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      margin: 0 auto;
+      max-width: 230px;
+   }
+
+   .home-item {
+      position: relative;
+      bottom: 40px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+   }
+
+   .home-left {
+      text-align: center;
+      margin: 0 auto;
+      max-width: 100%;
+   }
+
+   .home-left h4 {
+      margin: 0 auto;
+   }
+
+   .home-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 0 auto;
+   }
+}
+
+@media only screen and (max-width: 1000px) {
+
+   .advice-item,
+   .contact-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+   }
+
+   .service-float {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: -50px;
+   }
+
+   .service-left video {
+      max-width: 100%;
+   }
+}

@@ -1,0 +1,151 @@
+#home {
+   background: url(../assets/images/header.png) no-repeat center;
+   background-size: cover;
+
+}
+
+.home-container {
+   position: relative;
+   display: var(--display);
+   align-items: start;
+   flex-direction: column;
+
+}
+
+.home-left {
+   padding-top: 104px;
+   padding-bottom: 188px;
+   max-width: 70%;
+}
+
+.home-left h1 {
+   font-weight: 800;
+   font-size: 58px;
+   line-height: 80px;
+   letter-spacing: 0.2px;
+   color: #252B42;
+   max-width: 536px;
+}
+
+.home-left h4 {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+   letter-spacing: 0.2px;
+   color: #737373;
+   padding: 35px 0;
+   max-width: 350px;
+}
+
+.home-btn a {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 28px;
+   text-align: center;
+   letter-spacing: 0.2px;
+   color: var(--secondary-color);
+}
+
+.home-btn {
+   display: var(--display);
+   flex-direction: row;
+   gap: 10px;
+}
+
+.home-btn a {
+   text-decoration: none;
+}
+
+.home-btn .home-btn2 {
+   max-width: 155px;
+   padding: 10px 36px;
+   border: 1px solid var(--secondary-color);
+   border-radius: 37px;
+   background: transparent;
+}
+
+.home-btn .home-btn2:hover {
+   background: var(--primary-color);
+   color: #FFFFFF;
+   border: none;
+}
+
+.home-btn .home-btn2:hover a {
+   color: #FFFFFF;
+}
+
+.home-btn .home-btn1 {
+   max-width: 185px;
+   padding: 10px 36px;
+   border: 1px solid var(--secondary-color);
+   border-radius: 37px;
+   background: transparent;
+}
+
+.home-btn .home-btn1:hover {
+   border: none;
+   background: var(--primary-color);
+   color: #FFFFFF;
+}
+
+.home-btn .home-btn1:hover a {
+   color: #FFFFFF;
+}
+
+.home-item {
+   display: var(--display);
+   justify-content: space-between;
+   align-items: center;
+   position: absolute;
+   bottom: -105px;
+   width: 96%;
+   /* gap: 50px; */
+}
+
+.home-card {
+   display: var(--display);
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 40px 65px 35px 40px;
+   background: #FFFFFF;
+   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.home-card:hover {
+   background: var(--secondary-color);
+}
+
+.home-card:hover h3 {
+   color: #fff;
+}
+
+.home-card:hover p {
+   color: #fff;
+}
+
+.home-card:hover path {
+   fill: #fff;
+}
+
+.home-card p {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 0.2px;
+   color: #737373;
+   max-width: 218px;
+}
+
+.home-card-fir {
+   padding: 35px 30px 35px 40px;
+}
+
+.home-card h3 {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 32px;
+   letter-spacing: 0.1px;
+   color: #252B42;
+   padding-top: 13.37px;
+   padding-bottom: 10px;
+}
